@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>My Favorite City: Velaris</title>
+        <meta
+            title="My Favorite City: VELARIS"
+            name="description"
+            content="Discover the enchanting city of Velaris from ACOMAF. Dive into the magic of Starfall, explore the towering heights of Ramiel, stroll along the Sidra River, and experience the vibrant atmosphere of Rita's Tavern. Velaris awaits your adventure." />
+        <link rel="icon" type="image/x-icon" href="img/velarisicon.png" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Kalnia+Glaze:wght@100..700&display=swap"
+            rel="stylesheet" />
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                max-width: 1000px;
+            }
+
+            html,
+            body {
+                margin: 0;
+                padding: 20px;
+                max-width: 100%;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                min-height: 100vh;
+                background-color: #f1eaff;
+                line-width: 50em;
+                line-height: 1.4em;
+                font-family: Arial, sans-serif;
+                overflow-x: hidden;
+            }
+
+            .container {
+                width: 100%;
+                max-width: 1000px;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
+
+            p {
+                text-align: left;
+                margin-bottom: 1em;
+                width: 100%;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+            }
+
+            h1 {
+                font-size: 1.75em;
+                font-family: "Kalnia Glaze", serif;
+                text-align: center;
+                text-shadow: 0.04em 0.04em 0.04em blue;
+                margin-bottom: 1em;
+                width: 100%;
+            }
+
+            strong {
+                font-size: 2.5em;
+            }
+
+            h2,
+            h3 {
+                font-size: 1.5em;
+                font-family: "Kalnia Glaze", serif;
+                text-align: center;
+                font-weight: 500;
+                text-shadow: 0.02em 0.02em 0.02em blue;
+                background-color: white;
+                padding: 15px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                display: inline-block;
+                margin: 1em 0;
+                width: auto;
+                max-width: 100%;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                max-height: 250px;
+                margin: 1em 0;
+                display: block;
+            }
+
+            section {
+                width: 100%;
+                margin-bottom: 2em;
+                padding: 0 20px;
+                clear: both;
+            }
+
+            .float-left {
+                float: left;
+                margin: 0 20px 20px 0;
+                background-color: white;
+                padding: 7px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .float-right {
+                float: right;
+                margin: 0 0 20px 20px;
+                background-color: white;
+                padding: 7px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            h4 {
+                font-size: 1em;
+                margin: 1em 0;
+            }
+
+            h4 + ul {
+                font-size: 0.9em;
+                text-align: left;
+                padding-left: 20px;
+            }
+
+            h3 + ol {
+                text-align: left;
+                padding-left: 20px;
+                margin: 1em 0;
+            }
+            @media (max-width: 1000px) {
+                body {
+                    padding: 15px;
+                }
+
+                section {
+                    padding: 0 15px;
+                }
+
+                h1 {
+                    font-size: 1.5em;
+                }
+                h2 {
+                    font-size: 1.3em;
+                }
+                strong {
+                    font-size: 2.2em;
+                }
+            }
+
+            @media (max-width: 768px) {
+                body {
+                    padding: 10px;
+                }
+
+                section {
+                    padding: 0 10px;
+                }
+
+                .float-left,
+                .float-right {
+                    float: none;
+                    margin: 1em auto;
+                    max-width: 100%;
+                }
+
+                img {
+                    max-height: 200px;
+                    margin: 1em auto;
+                }
+
+                h1 {
+                    font-size: 1.3em;
+                }
+                h2 {
+                    font-size: 1.2em;
+                }
+                h3 {
+                    font-size: 1.1em;
+                }
+                strong {
+                    font-size: 2em;
+                }
+                p {
+                    font-size: 0.95em;
+                }
+            }
+
+            @media (max-width: 480px) {
+                body {
+                    padding: 5px;
+                }
+
+                section {
+                    padding: 0 5px;
+                }
+
+                img {
+                    max-height: 150px;
+                }
+
+                h1 {
+                    font-size: 1.2em;
+                }
+                h2 {
+                    font-size: 1.1em;
+                }
+                h3 {
+                    font-size: 1em;
+                }
+                strong {
+                    font-size: 1.8em;
+                }
+                p {
+                    font-size: 0.9em;
+                }
+
+                h4 + ul,
+                h3 + ol {
+                    padding-left: 15px;
+                    font-size: 0.9em;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My Favorite City<br /><br /><br /><strong>VELARIS</strong></h1>
+
+        <section>
+            <h2>Welcome to Velaris, Night Court, Prythian</h2>
+            <img src="img/velaris.jpeg" alt="City of Velaris" class="float-left" />
+
+            <p>
+                On the western side of the Night Court of Prythian lies a hidden city called Velaris, sometimes referred
+                to as the Court of Dreams or the City of Starlight. Velaris is shaped like a crust on top of steep,
+                undulating hills. The Sidra River, a wide, meandering river the color of the deepest sapphire, runs
+                alongside the hills and empties into the ocean. The Sidra River is navigable thanks to the permanent
+                placement of ships with sails of various shapes along its course. Like eternal guardians of the city, a
+                wall of red stone mountains with flat tops curved to the northern edge of Velaris, where the river bent
+                toward them and flowed into their shadows. In fact, the House of Wind, Rhysand's official residence, is
+                located in the uppermost portion of their middle and larger peak, which is punctuated by holes and
+                windows. To the north, a variety of mountains encircle the city on the other side of the river. These
+                mountains are a collection of jagged peaks that resemble fish teeth and pierce the city's hills from the
+                sea. White marble, warm sandstone, and the same red stone of the flat-topped mountains on the city's
+                northern edge are used to construct the city's buildings. Townhouses with white chimneys and green
+                copper roofs abound in many of Velaris' neighborhoods. Velaris is home to nightclubs like the Rita's,
+                restaurants like the Restaurant where the Inner Circle eats, and numerous stores with delicate tables
+                and chairs strewn outside their cheery fronts. Warming spells are used to heat many of these structures.
+            </p>
+        </section>
+
+        <h3>Recommended Places to Go</h3>
+        <ol>
+            <li>
+                Starfall:
+                <a href="https://acourtofthornsandroses.fandom.com/wiki/Starfall" target="_blank"
+                    >https://acourtofthornsandroses.fandom.com/wiki/Starfall</a
+                >
+            </li>
+            <li>
+                Ramiel:
+                <a href="https://acourtofthornsandroses.fandom.com/wiki/Ramiel?so=search" target="_blank"
+                    >https://acourtofthornsandroses.fandom.com/wiki/Ramiel?so=search</a
+                >
+            </li>
+            <li>
+                Sidra River:
+                <a href="https://acourtofthornsandroses.fandom.com/wiki/Sidra_River?so=search" target="_blank"
+                    >https://acourtofthornsandroses.fandom.com/wiki/Sidra_River?so=search</a
+                >
+            </li>
+            <li>
+                Rita's Tavern:
+                <a href="https://acourtofthornsandroses.fandom.com/wiki/Rita's?so=search" target="_blank"
+                    >https://acourtofthornsandroses.fandom.com/wiki/Rita's?so=search</a
+                >
+            </li>
+        </ol>
+
+        <section>
+            <img src="img/starfall.jpeg" alt="Starfall" class="float-right" style="margin-top: 72px" />
+
+            <h2>Starfall</h2>
+
+            <p>
+                Even though the views are amazing during the day, the best time to visit the Starfall viewpoint is at
+                sunset, when the sky begins to change color over the mountains. It will change from blue to orange, red,
+                pink, and, if the night is clear, the most beautiful shade of purple. Don't leave just yet after the sun
+                sets; wait until it gets dark, when Starfall begins. At this point, the village's chalets will all turn
+                on their lights, causing the valley below to sparkle. You might even catch a glimpse of stars above.
+                With all the snow on the rooftops and the views of Ramiel in the background, it appears completely
+                magical in the winter! Starfall initially appears to be a shower of shooting stars in the sky, just as
+                its name suggests. But in reality, they are spirits. It happens around the Spring Equinox, which is
+                around March 25th in our world, starfall occurs.
+            </p>
+        </section>
+
+        <section>
+            <img src="img/ramiel.jpeg" alt="Ramiel" class="float-left" />
+
+            <h2>Ramiel</h2>
+            <p>
+                Located in the Night Court's central Illyria region, Ramiel is considered the court's sacred mountain.
+                The mountain with three stars on top, which is only visible for one week out of the year during the
+                Blood Rite, was made Ramiel's court insignia by the first Night Court ruler. To participate in the
+                ritual, Illyrian warriors must ascend Ramiel and touch the onyx monolith there. They are not regarded as
+                warriors if they fail the ceremony.
+            </p>
+        </section>
+
+        <section>
+            <img src="img/sidrariver.jpeg" alt="The Sidra River" class="float-right" />
+
+            <h2>Sidra River</h2>
+            <p>
+                The Sidra River, or just the Sidra, is a wide, meandering river that flows through Velaris and empties
+                into the city's sea gulf. It sparkles like the deepest sapphire. The Sidra is navigable because ships
+                with different shaped sails loiter there. There are two palaces on the northern side of the Sidra and
+                two on the southern side.
+            </p>
+        </section>
+
+        <section>
+            <img src="img/ritastavern.jpg" alt="Rita's Tavern" class="float-left" />
+
+            <h2>Rita's Tavern</h2>
+            <p>
+                Rita's is a Velaris pleasure hall where patrons can gamble and dance. It's a warm, lantern-lit room
+                filled with animated chatter and glass clinking. After a long day, you would expect to find the Night
+                Court's elite relaxing there. Try the Sidra Special, which is their signature beverage.
+            </p>
+        </section>
+
+        <section>
+            <h4>Resources</h4>
+            <ul>
+                <li>
+                    Christian Buergi. Zermatt Matterhorn Viewpoint in Switzerland. 2024.
+                    <a
+                        href="https://www.pexels.com/photo/zermatt-matterhorn-viewpoint-in-switzerland-6344695/"
+                        target="_blank"
+                        >https://www.pexels.com/photo/zermatt-matterhorn-viewpoint-in-switzerland-6344695/</a
+                    >. Accessed 26 October, 2024.
+                </li>
+
+                <li>
+                    Nanda Gopal Lakshman. Matterhorn from Zermatt. 2024.
+                    <a href="https://www.pexels.com/photo/matterhorn-from-zermatt-27436132/" target="_blank"
+                        >https://www.pexels.com/photo/matterhorn-from-zermatt-27436132/</a
+                    >. Accessed 26 October, 2024.
+                </li>
+
+                <li>
+                    Pearce, S. (2024, August 7). Is Zermatt Velaris from ACOTAR? Visit a real life city of starlight
+                    (2024)! Third Eye Traveller.
+                    <a
+                        href="https://thirdeyetraveller.com/zermatt-velaris-acotar-real-life/#:~:text=Visit%20a%20Real%20Life%20City%20of%20Starlight%20%282024%29%21,at%20sunset%20%26%20at%20night%20for%20Starfall%20"
+                        target="_blank"
+                        >https://thirdeyetraveller.com/zermatt-velaris-acotar-real-life/#:~:text=Visit%20a%20Real%20Life%20City%20of%20Starlight%20%282024%29%21,at%20sunset%20%26%20at%20night%20for%20Starfall%20
+                    </a>
+                </li>
+
+                <li>
+                    Pixabay. Brown and Red Billiards Tables With Green Lamps. 2024.
+                    <a
+                        href="https://www.pexels.com/photo/brown-and-red-billiards-tables-with-green-lamps-261043/"
+                        target="_blank"
+                        >https://www.pexels.com/photo/brown-and-red-billiards-tables-with-green-lamps-261043/</a
+                    >. Accessed 26 October, 2024.
+                </li>
+
+                <li>
+                    Robert Hacker. Long Exposure Night Sky. 2024.
+                    <a href="https://www.pexels.com/photo/long-exposure-night-sky-14253782/" target="_blank"
+                        >https://www.pexels.com/photo/long-exposure-night-sky-14253782/</a
+                    >. Accessed 26 October, 2024.
+                </li>
+
+                <li>
+                    Timo Niedermann. Scenic View of Matterhorn, Switzerland. 2024.
+                    <a
+                        href="https://www.pexels.com/photo/scenic-view-of-matterhorn-switzerland-10570243/"
+                        target="_blank"
+                        >https://www.pexels.com/photo/scenic-view-of-matterhorn-switzerland-10570243/</a
+                    >. Accessed 26 October, 2024.
+                </li>
+
+                <li>
+                    Wiki, C. T. a. C. O. T. a. R. (n.d.-a). Ramiel. A Court of Thorns and Roses Wiki.
+                    <a href="https://acourtofthornsandroses.fandom.com/wiki/Ramiel?so=search" target="_blank"
+                        >https://acourtofthornsandroses.fandom.com/wiki/Ramiel?so=search</a
+                    >
+                </li>
+
+                <li>
+                    Wiki, C. T. a. C. O. T. a. R. (n.d.-b). Rita’s. A Court of Thorns and Roses Wiki.
+                    <a href="https://acourtofthornsandroses.fandom.com/wiki/Rita's?so=search" target="_blank"
+                        >https://acourtofthornsandroses.fandom.com/wiki/Rita's?so=search</a
+                    >
+                </li>
+
+                <li>
+                    Wiki, C. T. a. C. O. T. a. R. (n.d.-b). Sidra River. A Court of Thorns and Roses Wiki.
+                    <a href="https://acourtofthornsandroses.fandom.com/wiki/Sidra_River?so=search" target="_blank"
+                        >https://acourtofthornsandroses.fandom.com/wiki/Sidra_River?so=search</a
+                    >
+                </li>
+
+                <li>
+                    Wiki, C. T. a. C. O. T. a. R. (n.d.-a). Starfall. A Court of Thorns and Roses Wiki.
+                    <a href="https://acourtofthornsandroses.fandom.com/wiki/Starfall" target="_blank"
+                        >https://acourtofthornsandroses.fandom.com/wiki/Starfall</a
+                    >
+                </li>
+
+                <li>
+                    Wiki, C. T. a. C. O. T. a. R. (n.d.). Velaris. A Court of Thorns and Roses Wiki.
+                    <a href="https://acourtofthornsandroses.fandom.com/wiki/Velaris" target="_blank"
+                        >https://acourtofthornsandroses.fandom.com/wiki/Velaris</a
+                    >
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <p><small>&copy; 2024 by Macarena Santiago for BATECH 189 </small></p>
+        </footer>
+    </body>
+</html>
